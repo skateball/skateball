@@ -50,6 +50,7 @@ latest Tag ![GitHub Tag](https://img.shields.io/github/v/tag/sap/sapmachine?cach
 | 17.Mar2019  |         |         | ![GitHub downloads (20)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-20/total?label=20&color=white&cacheSeconds=90000)   |         |         |         |
 | 19/18.Apr2023  | ![GitHub downloads (11.0.19)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-11.0.19/total?label=11.0.19&color=darkgreen&cacheSeconds=90000) | ![GitHub downloads (17.0.7)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-17.0.7/total?label=17.0.7&color=darkgreen&cacheSeconds=90000)  | ![GitHub downloads (20.0.1)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-20.0.1/total?label=20.0.1&color=yellow&cacheSeconds=90000)       |         |         |         |
 | 18.July2023 | ![GitHub downloads (11.0.20)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-11.0.20/total?label=11.0.20&color=darkgreen&cacheSeconds=90000) | ![GitHub downloads (17.0.8)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-17.0.8/total?label=17.0.8&color=darkgreen&cacheSeconds=90000)  | ![GitHub downloads (20.0.2)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-20.0.2/total?label=20.0.2&color=yellow&cacheSeconds=90000)        |         |         |         |
+| 11/7.Sept2023 | ![GitHub downloads (11.0.20.1)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-11.0.20.1/total?label=11.0.20.1&color=darkgreen&cacheSeconds=90000)  | ![GitHub downloads (17.0.8.1)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-17.0.8.1/total?label=17.0.8.1&color=darkgreen&cacheSeconds=90000) |         |         |         |         |
 | 18.Sept2023 |         |         | ![GitHub downloads (21)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-21/total?label=21&color=white&cacheSeconds=90000)      |         |         |         |
 | 18.Oct2023  | ![GitHub downloads (11.0.21)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-11.0.21/total?label=11.0.21&color=darkgreen&cacheSeconds=90000) | ![GitHub downloads (17.0.9)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-17.0.9/total?label=17.0.9&color=darkgreen&cacheSeconds=90000)  | ![GitHub downloads (21.0.1)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-21.0.1/total?label=21.0.1&color=darkgreen&cacheSeconds=90000)  |         |         |         |
 | 16.Jan2024  | ![GitHub downloads (11.0.22)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-11.0.22/total?label=11.0.22&color=darkgreen&cacheSeconds=90000) | ![GitHub downloads (17.0.10)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-17.0.10/total?label=17.0.10&color=darkgreen&cacheSeconds=90000) | ![GitHub downloads (21.0.2)](https://img.shields.io/github/downloads/sap/sapmachine/sapmachine-21.0.2/total?label=21.0.2&color=darkgreen&cacheSeconds=90000)  |         |         |         |
@@ -67,17 +68,22 @@ latest Tag ![GitHub Tag](https://img.shields.io/github/v/tag/sap/sapmachine?cach
 |   .Jan2026  |         | 17.0.18 | 21.0.9  | 25.0.2  |         |         |
 |   .Mar2026  |         |         |         |         | 26      |         |
 
-Downloads of that Release from ReleaseDate up to now. 
+Downloads of that Release from ReleaseDate up to now.
 Values cached for 24h
 
 [![License](https://img.shields.io/github/license/sap/sapmachine.svg?cacheSeconds=90000)](https://github.com/sap/sapmachine/blob/master/LICENSE)
 
 
-[https://builds.shipilev.net/backports-monitor/pushes-21.0.4.txt]()
-[https://builds.shipilev.net/backports-monitor/pushes-21.0.5.txt]()
+[https://builds.shipilev.net/backports-monitor/pushes-21.0.4.txt]() <br>
+[https://builds.shipilev.net/backports-monitor/pushes-21.0.5.txt]() <br>
 [https://builds.shipilev.net/backports-monitor/pushes-23.txt]()
 
 [https://go.sap.corp/async-profiler]()
 
 [https://sapmachine.io/]()
 [https://skateball.github.io/SapMachine/]()
+
+[https://openjdk.org/groups/vulnerability/advisories/]() <br>
+[https://www.oracle.com/de/security-alerts/]()
+
+[https://www.java.com/releases/matrix/]()
