@@ -26,13 +26,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
           distribution: ${{ matrix.distribution }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "${{ matrix.version }}" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -52,13 +53,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
           distribution: ${{ matrix.distribution }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "${{ matrix.version }}" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -74,7 +76,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
@@ -82,6 +84,7 @@ jobs:
           java-version: 11
           check-latest: true
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "11" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -97,7 +100,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
@@ -119,6 +122,7 @@ jobs:
           }
         shell: pwsh
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "17" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -134,13 +138,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
           distribution: sapmachine
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "${{ matrix.version }}" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -158,7 +163,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
@@ -166,6 +171,7 @@ jobs:
           java-package: ${{ matrix.java-package }}
           distribution: ${{ matrix.distribution }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "${{ matrix.version }}" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -187,7 +193,7 @@ jobs:
       - name: Create .tool-versions file
         shell: bash
         run: echo "java 17" > .tool-versions
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
@@ -195,6 +201,7 @@ jobs:
           java-version: 11
           java-version-file: ${{matrix.java-version-file }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "11" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -216,13 +223,14 @@ jobs:
       - name: Create .tool-versions file
         shell: bash
         run: echo "java 11" > .tool-versions
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
           java-version-file: ${{matrix.java-version-file }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "11" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -244,13 +252,14 @@ jobs:
       - name: Create .tool-versions file
         shell: bash
         run: echo "java 17.0.10" > .tool-versions
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
           java-version-file: ${{matrix.java-version-file }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "17.0.10" "${{ steps.setup-java.outputs.path }}"
         shell: bash
 
@@ -272,12 +281,13 @@ jobs:
       - name: Create .tool-versions file
         shell: bash
         run: echo "java openjdk64-17.0.10" > .tool-versions
-      - name: setup-java
+      - name: Setup-java
         uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
           java-version-file: ${{matrix.java-version-file }}
       - name: Verify Java
+        uses: actions/setup-java@v4
         run: bash __tests__/verify-java.sh "17.0.10" "${{ steps.setup-java.outputs.path }}"
         shell: bash
