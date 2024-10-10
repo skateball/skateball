@@ -1,15 +1,15 @@
 name: Validate SapMachine e2e
 
 on:
-  push:
-    branches:
-      - main
-      - releases/*
-    paths-ignore:
-      - '**.md'
-  pull_request:
-    paths-ignore:
-      - '**.md'
+#  push:
+#    branches:
+#      - main
+#      - releases/*
+#    paths-ignore:
+#      - '**.md'
+#  pull_request:
+#    paths-ignore:
+#      - '**.md'
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
@@ -20,14 +20,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-13, windows-latest, ubuntu-latest]
+        os: [ubuntu-latest, windows-latest, macos-13 ]
         distribution: [ 'sapmachine' ] # internally 'adopt-hotspot' is the same as 'adopt'
         version: ['21', '11', '17']
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
@@ -53,7 +53,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
@@ -75,7 +75,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
@@ -98,7 +98,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
@@ -135,7 +135,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
@@ -159,7 +159,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           java-version: ${{ matrix.version }}
@@ -188,7 +188,7 @@ jobs:
         shell: bash
         run: echo "java 17" > .tool-versions
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
@@ -217,7 +217,7 @@ jobs:
         shell: bash
         run: echo "java 11" > .tool-versions
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
@@ -245,7 +245,7 @@ jobs:
         shell: bash
         run: echo "java 17.0.10" > .tool-versions
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
@@ -273,7 +273,7 @@ jobs:
         shell: bash
         run: echo "java openjdk64-17.0.10" > .tool-versions
       - name: setup-java
-        uses: ./
+        uses: actions/setup-java@v4
         id: setup-java
         with:
           distribution: ${{ matrix.distribution }}
