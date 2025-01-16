@@ -2,16 +2,22 @@
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/sap/sapmachine/total?cacheSeconds=90000) value is wrong
 
-Latest SapMachine [![GitHub Release Date](https://img.shields.io/github/release-date/sap/sapmachine?cacheSeconds=90000)](https://github.com/sap/sapmachine/releases/latest) from  [![Latest Release](https://img.shields.io/github/release/sap/sapmachine.svg?cacheSeconds=90000)](https://github.com/sap/sapmachine/releases/latest) was downloaded already  
-![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?cacheSeconds=90000) times
-[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release&cacheSeconds=90000)](https://sap.github.io/SapMachine/#download)
+Latest SapMachine is from [![GitHub Release Date](https://img.shields.io/github/release-date/sap/sapmachine?cacheSeconds=90000)](https://github.com/sap/sapmachine/releases/latest) 
 
-Since than we have ![GitHub commits since latest release](https://img.shields.io/github/commits-since/sap/sapmachine/latest) commits and the last commit was ![GitHub last commit](https://img.shields.io/github/last-commit/sap/sapmachine).
+Newest Release [![Latest Release](https://img.shields.io/github/release/sap/sapmachine.svg?cacheSeconds=90000)](https://github.com/sap/sapmachine/releases/latest) was downloaded already [![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release&cacheSeconds=90000)](https://sap.github.io/SapMachine/#download) times
+             
+Since than we have [![GitHub commits since latest release](https://img.shields.io/github/commits-since/sap/sapmachine/latest)](https://github.com/SAP/SapMachine/commits/sapmachine/) commits and the last commit was ![GitHub last commit](https://img.shields.io/github/last-commit/sap/sapmachine).
 
-[![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Image%20Pulls&cacheSeconds=90000)](https://hub.docker.com/_/sapmachine)
-![Docker Image Size](https://img.shields.io/docker/image-size/_/sapmachine?label=Docker%20Image%20Size&cacheSeconds=90000)
+[![Github Issues](https://img.shields.io/github/issues/sap/sapmachine?label=Github%20Issues&cacheSeconds=90000)](https://github.com/SAP/SapMachine/issues)
+[![Github PullRequest](https://img.shields.io/github/issues-pr/sap/sapmachine?label=Github%20PullReqests&cacheSeconds=90000)](https://github.com/SAP/SapMachine/pulls)
 
-latest Tag ![GitHub Tag](https://img.shields.io/github/v/tag/sap/sapmachine?cacheSeconds=90000)
+[![Docker Pulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Image%20Pulls&cacheSeconds=90000)\
+![Docker Base Image version](https://img.shields.io/docker/v/_/sapmachine?label=Docker%20Base%20Image%20version&cacheSeconds=90000)\
+![Docker Image Size](https://img.shields.io/docker/image-size/_/sapmachine?label=Docker%20Image%20Size&cacheSeconds=90000)\
+![Docker Stars](https://img.shields.io/docker/stars/_/sapmachine?label=Docker%20Stars&cacheSeconds=90000)](https://hub.docker.com/_/sapmachine)
+
+latest Tag ![GitHub Tag](https://img.shields.io/github/v/tag/sap/sapmachine?label=Latest%20Tag&cacheSeconds=90000)\
+latest Release ![GitHub Tag](https://img.shields.io/github/v/release/sap/sapmachine?label=Latest%20Release&cacheSeconds=90000)
 
 | ReleaseDate |         |         |         |         |         |         |
 |-------------|---------|---------|---------|---------|---------|---------|
