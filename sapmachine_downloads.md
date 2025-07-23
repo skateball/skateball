@@ -87,6 +87,8 @@ Values cached for 24h
 [https://openjdk.org/groups/vulnerability/advisories/](https://openjdk.org/groups/vulnerability/advisories/) <br>
 [https://www.oracle.com/de/security-alerts/](https://www.oracle.com/de/security-alerts/)
 
+[https://dist.sapmachine.io/debian/amd64/Packages](https://dist.sapmachine.io/debian/amd64/Packages)
+
 [JAVA.com - releases matrix](https://www.java.com/releases/matrix/)
 [Oracle - Java Support Timelines](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 
