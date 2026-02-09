@@ -88,16 +88,16 @@ or for long term releases after SapMachine official End Of Maintenance
 
 [![License](https://img.shields.io/github/license/sap/sapmachine.svg?cacheSeconds=90000)](https://github.com/sap/sapmachine/blob/master/LICENSE)
 
-[https://sapmachine.io/](https://sapmachine.io/)
-[https://skateball.github.io/SapMachine-infrastructure/](https://skateball.github.io/SapMachine-infrastructure/)
+[https://sapmachine.io/](https://sapmachine.io/)  
+[https://skateball.github.io/SapMachine-infrastructure/](https://skateball.github.io/SapMachine-infrastructure/)  
 [https://skateball.github.io/SapMachine/](https://skateball.github.io/SapMachine/)
 
-[https://openjdk.org/groups/vulnerability/advisories/](https://openjdk.org/groups/vulnerability/advisories/) <br>
+[https://openjdk.org/groups/vulnerability/advisories/](https://openjdk.org/groups/vulnerability/advisories/)  
 [https://www.oracle.com/de/security-alerts/](https://www.oracle.com/de/security-alerts/)
 
+[JAVA.com - releases matrix](https://www.java.com/releases/matrix/)  
+[JAVA.com - cryptoroadmap](https://java.com/cryptoroadmap) redirects to [JAVA.com - jre-jdk-cryptoroadmap.html](https://www.java.com/en/jre-jdk-cryptoroadmap.html) 
+
+[Oracle - Java Support Timelines](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)  
+
 [https://dist.sapmachine.io/debian/amd64/Packages](https://dist.sapmachine.io/debian/amd64/Packages)
-
-[JAVA.com - releases matrix](https://www.java.com/releases/matrix/)
-[Oracle - Java Support Timelines](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
-
-[https://go.sap.corp/async-profiler](https://go.sap.corp/async-profiler)
