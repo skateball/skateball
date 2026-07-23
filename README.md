@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @skateball
 - 👀 I’m interested in a lot
 - 🌱 I’m currently learning github actions
-- 💞️ I’m looking to collaborate on the [SapMachine Repository](https://github.com/SAP/SapMachine) [❀](https://github.com/skateball/skateball/blob/main/sapmachine_downloads.md) [🌟](https://github.com/SAP/SapMachine/graphs/traffic)
+- 💞️ I’m looking to collaborate on the [SapMachine Repository](https://github.com/SAP/SapMachine) [❀](./sapmachine_downloads.md) [🌟](https://github.com/SAP/SapMachine/graphs/traffic)
 - 📫 How to reach me: Threema, Signal, eMail, phone and snail mail
 
 <!---
